@@ -1,0 +1,80 @@
+.home{
+    padding: 10px 30px 20px;
+    position: relative;
+    min-height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+}
+.user-data{
+    width: 100%;
+}
+.add-user{
+    width: 70%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px #ccc;
+    background-color: #fff;
+}
+.add-user h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-user form input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.add-user form button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+.error{
+    color: red;
+    margin-bottom: 10px;
+}
+.no-data{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #7c3aed;
+}
+ul{
+    list-style: none;
+}
+.user-details{
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.user-item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.user-item p{
+    margin: 0;
+    width: 20%;
+    font-weight: 600;
+}
+.user-item .email{
+    width: 25%;
+}
+

@@ -1,0 +1,23 @@
+.user-items{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.user-items p{
+    margin: 0;
+    width: 20%;
+}
+.user-items .email{
+    width: 26%;
+}
+.user-items button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.icon{
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 20px;
+}

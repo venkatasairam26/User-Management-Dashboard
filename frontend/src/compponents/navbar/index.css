@@ -1,0 +1,45 @@
+.header{
+    padding: 20px 0 50px;
+}
+.header h1{
+    margin: 0 0 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-add-user{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+    width: 50%;
+}
+.search-add-user input{
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: transparent;
+    color: #000;
+    display: block;
+    padding: 10px;
+}
+.search-add-user button{
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.filter{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+    cursor: pointer;
+}
