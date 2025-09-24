@@ -38,7 +38,7 @@ const Home = () => {
             department
         }
 
-       const response = await fetch("http://localhost:5000/users", {
+       const response = await fetch("https://user-management-dashboard-aaj0.onrender.com/users", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -74,7 +74,7 @@ const Home = () => {
         setApiResponse({apiStatus: apiStatusConstants.inProgress, data: null, error_message: null});
         console.log(filter);
         try {
-            const response = await fetch(`http://localhost:5000/users?search=${search}&filter=${filter}`);
+            const response = await fetch(`https://user-management-dashboard-aaj0.onrender.com/users?search=${search}&filter=${filter}`);
             const data = await response.json();
             const userData = data.map(each =>{
                 return {

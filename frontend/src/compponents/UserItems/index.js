@@ -9,7 +9,7 @@ const UserItems = (props) => {
         console.log("Edit");
     }
     const handleDelete = async () => {
-        const response = await fetch(`http://localhost:5000/users?email=${email}`, {
+        const response = await fetch(`https://user-management-dashboard-aaj0.onrender.com/users?email=${email}`, {
             method: "DELETE"
         })
         const data = await response.json();
