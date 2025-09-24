@@ -27,6 +27,7 @@ const Home = () => {
 
     const handleAddUser = () => {
         setAddUser(!addUser);
+        console.log("add user clicked")
     }
 
     const handleAddUserSubmit = async (event) => {
@@ -107,7 +108,10 @@ const Home = () => {
                             <input type="email" placeholder="Email" required onChange={(e) => setEmail(e.target.value)} />
                             <input type="text" placeholder="Department" required onChange={(e) => setDepartment(e.target.value)} />
                            <p className="error">{error}</p>
+                            <div>
                             <button type="submit">Add User</button>
+                            <button onClick={handleAddUser}>Cancel</button>
+                            </div>
                         </form>
                     </div>}
                     {data.length === 0 ? <p className="no-data">No data found</p> :<ul>
